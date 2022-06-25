@@ -28,6 +28,8 @@ create-react-app tabela-livros
                  [nome-aplicação]
 ```
 
+- Observação: A partir da versão 5.0.1, se você já instalou _c_reate-react-app_ globalmente via _npm install -g create-react-app_, recomendamos que você desinstale o pacote usando _npm uninstall -g create-react-app_ ou _yarn global remove create-react-app_ para garantir que npx sempre use a versão mais recente.
+
 - Ao finalizar a criação ele informa no terminal os próximos passos.
 Primeiro, entrar na pasta da aplicação:
 
