@@ -1,4 +1,4 @@
-# React 
+# React DOM
 
 React é um framework single page application(aplicação de única página).
 
