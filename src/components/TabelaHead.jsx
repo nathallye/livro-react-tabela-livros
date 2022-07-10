@@ -1,6 +1,6 @@
 import React from "react";
 
-const TabelaHead = () => {
+const TabelaHead = (props) => {
   return (
     <thead>
       <tr>
@@ -10,11 +10,16 @@ const TabelaHead = () => {
         <th>ISBN</th>
         <th>Título
           <div className="container-setinhas">
-            <div>&uarr;</div>
-            <div>&darr;</div>
+            <div onClick={() => props.ordenarCrescenteTitulo()}>&uarr;</div>
+            <div onClick={() => props.ordenarDecrescenteTitulo()}>&darr;</div>
           </div>
         </th>
-        <th>Autor</th>
+        <th>Autor
+          <div className="container-setinhas">
+            <div onClick={() => props.ordenarCrescenteAutor()}>&uarr;</div>
+            <div onClick={() => props.ordenarDecrescenteAutor()}>&darr;</div>
+          </div>
+        </th>
         <th></th> {/*Coluna que vai ficar o botão de remover*/}
       </tr>
     </thead>
