@@ -21,16 +21,16 @@ thead > tr:last-child {
 }
 
 thead > tr:first-child {
-  background: #e9b7d6;
+  background: #DB7093;
 }
 
 tbody > tr:nth-child(2n-1) {
-  background: #f1f1f1;
+  background: #FFF0F5;
 }
 
 tfoot > tr {
   text-align: center;
-  background: #e9b7d6;
+  background: #DB7093;
 }
 
 .botao {
@@ -52,26 +52,14 @@ tfoot > tr {
 
 .remover {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #DB7093;
+  border-color: #DB7093;
 }
 
 .remover:hover {
   color: #fff;
   background-color: #c82333;
   border-color: #bd2130;
-}
-
-.editar {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.editar:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
 }
 
 .container-setinhas {
